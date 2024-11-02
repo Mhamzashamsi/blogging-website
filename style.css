@@ -1,0 +1,174 @@
+
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body, h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+}
+/* General styles */
+body, h1, h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.w3-center {
+  text-align: center;
+}
+
+.w3-content {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.w3-light-grey {
+  background-color: #f1f1f1;
+}
+
+.w3-white {
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  padding: 32px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+.w3-tag {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+/* Blog entries */
+.w3-card-4 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 16px 0;
+}
+
+.w3-card-4 img {
+  width: 100%;
+}
+
+.w3-container {
+  padding: 16px;
+}
+
+.w3-opacity {
+  opacity: 0.6;
+}
+
+.w3-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w3-col {
+  flex: 1;
+}
+
+.w3-col.m8 {
+  flex: 0.6667;
+}
+
+.w3-col.m4 {
+  flex: 0.3333;
+}
+
+.w3-padding-large {
+  padding: 8px 16px;
+}
+
+.w3-button {
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.w3-border {
+  border: 1px solid #ccc;
+}
+
+.w3-hoverable li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Sidebar */
+.w3-margin {
+  margin: 16px;
+}
+
+.w3-margin-top {
+  margin-top: 16px;
+}
+
+.w3-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.w3-padding {
+  padding: 16px;
+}
+
+.w3-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.w3-ul li {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.w3-ul li img {
+  margin-right: 8px;
+}
+
+.w3-large {
+  font-size: 18px;
+}
+
+.w3-hide-small {
+  display: none;
+}
+
+/* Tags */
+.w3-tag {
+  display: inline-block;
+  padding: 5px;
+  margin: 2px;
+  background-color: #ccc;
+  color: #000;
+}
+
+.w3-tag.w3-black {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 32px;
+  text-align: center;
+}
+
+footer .w3-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: not-allowed;
+}
+
+footer a {
+  color: #ddd;
+}
